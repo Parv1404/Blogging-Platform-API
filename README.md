@@ -54,8 +54,14 @@ Common endpoints are:
 - `PUT /posts/:id` — update a post
 - `DELETE /posts/:id` — delete a post
 
+## Testing
+You can use tools like Postman or curl to test the API endpoints.
 
-<h2>Author</h2>
+## References
+- The project is inspired by the following resource:  https://roadmap.sh/projects/blogging-platform-api
+
+
+## Author
 <p>This project is created and developed by: </p>
     Parv Aggarwal <br>
     2nd year B.Tech. CSE <br>
