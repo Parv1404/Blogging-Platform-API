@@ -8,7 +8,7 @@ const deleteHandler = async (req, res) => {
         if(blogDeleted.deletedCount === 0) {
             return res.status(404).json({message:"Blog post with this id not found"});
         }
-        return res.status(204).json({message: "Blog deleted successfully"});
+        return res.status(204).send();
 
     } catch (error) {
         console.error(error);

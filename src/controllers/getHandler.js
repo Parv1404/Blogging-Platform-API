@@ -20,7 +20,7 @@ const getAllHandler = async (req, res) => {
     try {
         const blogGetAll = await getAllBlog();  
         if(!blogGetAll) {
-            return res.status(404).json({message:"Blog post with this id not found"});
+            return res.status(404).json({message:"No blog posts found"});
         }
         res.status(200).json(blogGetAll);
 

@@ -1,3 +1,5 @@
+const blogModel = require("../models/blogSchema")
+
 const createBlog = async (title, content, category, tags) => {
     try {
         const response = await blogModel.create({
